@@ -1,0 +1,40 @@
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ced4da; /* Border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Style for dropdown menu items */
+.dropdown-item {
+    color: #333; /* Text color */
+    padding: 8px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    text-decoration: none; /* Remove default underline */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f8f9fa; /* Hover background color */
+}
+
+/* Style for dropdown toggle */
+.dropdown-toggle {
+    cursor: pointer; /* Show pointer cursor */
+    color: #333; /* Text color */
+}
+
+/* Style for the dropdown wrapper */
+.dropdown {
+    position: relative; /* Position relative for absolute positioning of sub-menu */
+    display: inline-block; /* Display as inline block */
+}
+
+.container-fluid {
+    padding: 1px !important;
+}
+.item.title {
+    margin-bottom: 10px;
+}
+
+

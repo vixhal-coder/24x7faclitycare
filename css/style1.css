@@ -1,0 +1,63 @@
+/* Custom styles for the departments section */
+.departments {
+    padding-top: 3rem; /* Adjust the top padding as needed */
+    padding-bottom: 3rem; /* Add bottom padding */
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.departments .section-title h2 {
+    margin-bottom: 2rem; /* Space below the heading */
+    font-size: 2rem; /* Adjust heading size */
+    font-weight: 700; /* Make the heading bold */
+    color: #343a40; /* Dark grey color */
+}
+
+.departments .listing-box {
+    padding: 2rem; /* Add padding inside the listing box */
+    background: #ffffff; /* White background */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.departments .listing-box ul {
+    display: flex; /* Use flexbox for list */
+    flex-wrap: wrap; /* Allow items to wrap */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    font-size: 0.800rem; /* Decrease font size */
+}
+
+.departments .listing-box ul li {
+    margin-bottom: 0.40rem; /* Space between list items */
+    flex: 1 0 25%; /* Six items per row */
+    padding: 0.1rem; /* Add padding for better spacing */
+}
+
+.departments .listing-box ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #10a647; /* Bootstrap primary color for links */
+    /* font-size: 1rem; Slightly larger font size */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.departments .listing-box ul li a:hover {
+    color: #b30303; /* Darker shade on hover */
+}
+
+.departments .text-center .btn-info {
+    padding: 0.75rem 1.5rem; /* Add padding to the button */
+    font-size: 1rem; /* Adjust font size */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .departments .listing-box ul li {
+        flex: 1 0 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .departments .listing-box ul li {
+        flex: 1 0 100%;
+    }
+}
