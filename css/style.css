@@ -9,8 +9,8 @@
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 5px;
+    bottom: 75px;
     z-index: 99;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .btn-lg-square {
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
 }
 
 .btn-square,
