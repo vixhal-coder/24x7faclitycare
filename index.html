@@ -986,10 +986,21 @@
       </div>
 
       <!-- Back to Top -->
-      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-        ><i class="bi bi-arrow-up"></i
-      ></a>
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+        <i class="bi bi-arrow-up"></i>
+      </a>
     </div>
+    <script>
+      const backToTopBtn = document.getElementById("backToTopBtn");
+    
+      window.onscroll = function () {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          backToTopBtn.style.display = "block"; // Show the button
+        } else {
+          backToTopBtn.style.display = "none"; // Hide the button
+        }
+      };
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
