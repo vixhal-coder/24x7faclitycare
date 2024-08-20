@@ -14,6 +14,13 @@
     z-index: 99;
 }
 
+/* Hide the back-to-top button on small screens */
+@media (max-width: 767.98px) {
+  .back-to-top {
+    display: none;
+  }
+}
+
 
 /*** Spinner ***/
 /* #spinner {
