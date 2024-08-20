@@ -17,7 +17,7 @@
 /* Hide the back-to-top button on small screens */
 @media (max-width: 767.98px) {
   .back-to-top {
-    display: none;
+    display: none !important; /* Add !important to ensure it overrides any other styles */
   }
 }
 
