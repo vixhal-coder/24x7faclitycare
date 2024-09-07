@@ -14,13 +14,6 @@
     z-index: 99;
 }
 
-/* Hide the back-to-top button on small screens */
-@media (max-width: 767.98px) {
-  .back-to-top {
-    display: none;
-  }
-}
-
 
 /*** Spinner ***/
 /* #spinner {
@@ -38,6 +31,77 @@
 
 
 /*** Button ***/
+
+/* General Section Styling */
+.container-xxl {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Card Item Styling */
+.cat-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    overflow: hidden;
+}
+
+.cat-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cat-item h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+    margin-top: 15px;
+}
+
+.cat-item .icon {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.cat-item:hover .icon {
+    background-color: #e2e2e2;
+}
+
+/* Image Styling */
+.cat-item img {
+    border-radius: 5px;
+    max-height: 120px;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.cat-item:hover img {
+    opacity: 0.85;
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .cat-item h6 {
+        font-size: 1rem;
+    }
+    .cat-item img {
+        max-height: 100px;
+    }
+}
+/* Service End */
 .btn {
     transition: .5s;
 }
@@ -461,3 +525,4 @@
     padding-right: 0;
     border-right: none;
 }
+
